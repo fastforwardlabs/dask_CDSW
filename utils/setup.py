@@ -1,15 +1,12 @@
 
+#Run this if you are not using a custom docker image
+#To build a custom docker image for this project run commands like in build-engine.sh
 
-##NOTE: You may need a session with at least 8GB memory to install requirements 
+##NOTE: You need a session with at least 8GB memory to install the python libs
 
 cd
 !cp /home/cdsw/utils/cdsw-build.sh .
 !chmod 755 /home/cdsw/cdsw-build.sh
 !bash /home/cdsw/cdsw-build.sh
-!Rscript /home/cdsw/utils/install.R
-
-from distutils.core import setup
-setup(name='cdsw_await_workers',
-      version='1.0',
-      py_modules=['cdsw_await_workers']
-      )
+!pip3 install -r utils/requirements3.txt
+#!Rscript /home/cdsw/utils/install.R

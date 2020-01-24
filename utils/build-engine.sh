@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ENGINE_NAME='dask_CDSW'
+ENGINE_NAME='wine-demo'
 ENGINE_FILE=$ENGINE_NAME.tar
 ENGINE_INSTANCE='latest'
 
