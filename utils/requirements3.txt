@@ -1,5 +1,5 @@
--e utils/cdsw_await_workers/
--e utils/dask-workers/
+-e /home/cdsw/utils/cdsw_await_workers/
+-e /home/cdsw/utils/dask-workers/
 dask[complete]==2.6.0
 bokeh==1.4.0
 joblib==0.14.0
