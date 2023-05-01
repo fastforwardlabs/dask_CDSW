@@ -11,4 +11,4 @@ lime==0.1.1.36
 pandas==0.25.1
 numpy==1.17.2
 seaborn==0.9.0
-Flask==1.1.1
+Flask==2.3.2
